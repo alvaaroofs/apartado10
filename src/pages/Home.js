@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import Axios from "axios";
 
 
-//useQuery: da un unico id para cada query que hagamos;
+//useQuery: da un unico id para cada query que hagamos; nos ahorrara mucho tiempo y codigo, ya que hara peticiones del lado del cliente de forma sencilla.
 //isLoading; cuando la pagina este cargando, con el return sacaremos el mensaje mientras se refresca la pagina
 //Lo mismo con isError
 
